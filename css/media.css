@@ -1,0 +1,25 @@
+@media only screen and (max-width:36em) {
+    body{
+        max-width: 576px;
+        box-sizing: border-box;
+    }
+    .banner{
+        width: 100%;
+    }
+    .top-header{
+        flex-direction: column;
+    }
+    .banner-box{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .banner-img ,.banner-text {
+        width: 100%;
+    }
+    .logo{
+        white-space: nowrap;
+    }
+    nav{
+        width: 100%;
+    }
+}
